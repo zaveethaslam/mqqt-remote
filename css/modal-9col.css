@@ -1,0 +1,64 @@
+body{overflow:hidden;}
+.navbar.navbar-expand-md{padding-left:0;}
+.bg-expleo{background-color:#6846c7;overflow:hidden}
+.container-fluid .row{height:20.333vh;text-align:center;align-items:center;align-content:center;display:flex;background-color:#fff}
+.col-sm-4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0;
+	width:auto;
+	height:auto;
+    position: relative;
+    justify-content: center;
+}
+.btn-primary{color:#fff;background-color:transparent;flex:1;padding:0;height:100%;margin:0 auto;border-color:transparent;border-radius:.5rem}
+.navbar-title{color:#fff;font-size:2rem;font-weight:lighter;/*text-shadow:-2px -1px #fff*/position:absolute;right:0;}
+.flip-card{background-color:transparent;perspective:1000px}
+.flip-card-inner{position:relative;text-align:center;transition:transform .6s;transform-style:preserve-3d;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);border-radius:3rem;margin:1rem;}
+
+.flip-card-front,.flip-card-back{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;padding:2rem;}
+.flip-card-front{color:#fff;font-weight:700;border-radius:1rem}
+.color-green{background-color:#00a300}
+.color-greendark{background-color:#1e7145}
+.color-greenlight{background-color:#99b433}
+.color-magenta{background-color:#ff0097}
+.color-purplelight{background-color:#9f00a7}
+.color-purple{background-color:#7e3878}
+.color-purpledark{background-color:#603cba}
+.color-darken{background-color:#1d1d1d}
+.color-teal{background-color:#00aba9}
+.color-bluelight{background-color:#eff4ff}
+.color-blue{background-color:#2d89ef}
+.color-bluedark{background-color:#2b5797}
+.color-yellow{background-color:#ffc40d}
+.color-orange{background-color:#e3a21a}
+.color-orangedark{background-color:#da532c}
+.color-red{background-color:#b91d47}
+.color-redlight{background-color:#e11}
+.color-white{background-color:#fff}
+.bg-expleo .container {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    justify-content: center;
+}
+.container .row {    
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}

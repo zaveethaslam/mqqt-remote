@@ -1,0 +1,36 @@
+body{overflow:hidden}
+.navbar.navbar-expand-md{padding-left:0;}
+.bg-expleo{background-color:#6846c7;overflow:hidden}
+.container-fluid .row{height:49.5vh;text-align:center;align-items:center;align-content:center;display:flex;background-color:#fff}
+.col-sm-4{display:flex;text-align:center;background-color:#6846c7;align-items:center;align-content:center;height:49.5vh;margin:0 auto;padding-top:15px;padding-bottom:15px;transition:transform .6s;transform-style:preserve-3d;position:relative}
+.btn-primary{color:#fff;background-color:transparent;flex:1;padding:0;height:100%;margin:0 auto;border-color:transparent;border-radius:.5rem}
+.navbar-title{color:#fff;font-size:2rem;font-weight:lighter;/*text-shadow:-2px -1px #fff*/position:absolute;right:0;}
+.flip-card{background-color:transparent;perspective:1000px}
+.flip-card-inner{position:relative;width:100%;height:100%;text-align:center;transition:transform .6s;transform-style:preserve-3d;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)}
+.flip-card:hover .flip-card-inner{transform:rotateY(180deg)}
+.flip-card-front,.flip-card-back{position:absolute;width:100%;height:100%;backface-visibility:hidden;top:0;padding:10rem 1rem;bottom:0;font-size:3rem;border-radius:.5rem}
+.flip-card-front{background-color:#21BCF0;color:#fff;font-weight:700;border-radius:.5rem}
+.flip-card-back{background-color:#2980b9;color:#fff;transform:rotateY(180deg)}
+.color-green{background-color:#00a300}
+.color-greendark{background-color:#1e7145}
+.color-greenlight{background-color:#99b433}
+.color-magenta{background-color:#ff0097}
+.color-purplelight{background-color:#9f00a7}
+.color-purple{background-color:#7e3878}
+.color-purpledark{background-color:#603cba}
+.color-darken{background-color:#1d1d1d}
+.color-teal{background-color:#00aba9}
+.color-bluelight{background-color:#eff4ff}
+.color-blue{background-color:#2d89ef}
+.color-bluedark{background-color:#2b5797}
+.color-yellow{background-color:#ffc40d}
+.color-orange{background-color:#e3a21a}
+.color-orangedark{background-color:#da532c}
+.color-red{background-color:#b91d47}
+.color-redlight{background-color:#e11}
+.color-white{background-color:#fff}
+.color-lightyellow{background-color:#f021cf}
+.modal-dialog button.close{position:absolute;z-index:9999;right:-1rem;top:-1rem;width:3rem;background-color:#fff;height:3rem;opacity:1!important;font-size:2rem;border-radius:6rem;cursor:pointer;font-weight:700;color:#9577d4;line-height:2rem;outline:none;text-align:center;margin:0 auto}
+@media only screen and (max-width: 1390px) {
+	.flip-card-front,.flip-card-back{padding:7rem 1rem;}
+}
